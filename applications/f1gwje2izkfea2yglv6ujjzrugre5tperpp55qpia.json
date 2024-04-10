@@ -1,0 +1,66 @@
+{
+  "Version": 1,
+  "ID": "f1gwje2izkfea2yglv6ujjzrugre5tperpp55qpia",
+  "Issue Number": "7",
+  "Client": {
+    "Name": "Commoncrawl",
+    "Region": "United States",
+    "Industry": "Life Science / Healthcare",
+    "Website": "https://commoncrawl.org/",
+    "Social Media": "https://commoncrawl.org/",
+    "Social Media Type": "Slack",
+    "Role": "Storage provider filling out application on behalf of the data owner"
+  },
+  "Project": {
+    "Project Id": "DATADAO-02",
+    "Brief history of your project and organization": "DATADAO is built upon technical expertise and utilizes proprietary programs and advanced tools to provide customized car data packaging services to clients. Our team boasts extensive experience and proficiency in utilizing cutting-edge tools such as go-graphsplit and singularity to ensure efficient and accurate data packaging. Our service process encompasses the following key points:\r\n\r\nTechnical Expertise: Our team possesses rich technical expertise in utilizing advanced tools. By leveraging tools like go-graphsplit and singularity, we ensure the efficiency and accuracy of data packaging. These tools aid us in processing and packaging client-provided data to meet the storage requirements of the Filecoin network.\r\n\r\nData Processing Flow: We employ proprietary programs to segment, package, and compress client-provided data, ultimately generating ZIP files ranging from 28-32GB in size to align with the storage requirements of the Filecoin network. Through these services, we effectively assist clients in processing and preparing data for storage and usage on the Filecoin network.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Common Crawl maintains a free, open repository of web crawl data that can be used by anyone.\r\nPrimary training corpus in every LLM.82% of raw tokens used to train GPT-3.Free and open corpus since 2007.Cited in over 8000 research papers.3–5 billion new pages added each month.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "No response",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "357-resule \r\n2020-08-25 17:22:47  398.4 MiB hrrr_v2.20160823/conus/hrrr.t09z.wrfprsf13.grib2\r\n2020-08-25 17:22:52  396.0 MiB hrrr_v2.20160823/conus/hrrr.t09z.wrfprsf14.grib2\r\n2020-08-25 17:22:52  394.6 MiB hrrr_v2.20160823/conus/hrrr.t09z.wrfprsf15.grib2\r\n2020-08-25 17:22:52  390.2 MiB hrrr_v2.20160823/conus/hrrr.t09z.wrfprsf16.grib2\r\n2020-08-25 17:23:08  387.1 MiB hrrr_v2.20160823/conus/hrrr.t09z.wrfprsf17.grib2\r\n2020-08-25 17:23:05  384.8 MiB hrrr_v2.20160823/conus/hrrr.t09z.wrfprsf18.grib2\r\n2021-09-28 03:48:22   31.6 KiB index.html\r\n\r\nTotal Objects: 43282174\r\n   Total Size: 2.1 PiB",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "2 to 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, Europe",
+    "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3), IPFS, Shipping hard drives, Lotus built-in data transfer",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f02941888 \r\nf02941882 \r\nf02941891 \r\nf02941885\r\nf02941886  \r\nf02945259\r\nf02950965\r\nf02830451",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "10PiB",
+    "Single Size Dataset": "2PiB",
+    "Replicas": 5,
+    "Weekly Allocation": "512TiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2024-04-10 07:13:21.519997204 UTC",
+    "Validated By": "TOPPOOL-LEE",
+    "Active": true,
+    "Updated At": "2024-04-10 07:14:28.175558671 UTC",
+    "Active Request ID": "7e5b3029-58c5-4bc9-bb31-9fe2f486eaee",
+    "On Chain Address": "f1gwje2izkfea2yglv6ujjzrugre5tperpp55qpia",
+    "Multisig Address": "false"
+  },
+  "Allocation Requests": [
+    {
+      "ID": "7e5b3029-58c5-4bc9-bb31-9fe2f486eaee",
+      "Request Type": "First",
+      "Created At": "2024-04-10 07:13:21.520003834 UTC",
+      "Updated At": "2024-04-10 07:13:21.520004937 UTC",
+      "Active": false,
+      "Allocation Amount": "512TiB",
+      "Signers": [
+        {
+          "Github Username": "TOPPOOL-LEE",
+          "Signing Address": "f1grjkkw3p5hw3vx5gonvppkkzpcgmu4xnwfm7sli",
+          "Created At": "2024-04-10 07:14:25.792000000 UTC",
+          "Message CID": "bafy2bzacebgliqr7qvv5azc2yhuqo3hdpqssl4ksyrykvyipqo6mivozsx57w"
+        }
+      ]
+    }
+  ]
+}
