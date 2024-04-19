@@ -36,11 +36,11 @@
     "Weekly Allocation": "512TiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
+    "State": "Granted",
     "Validated At": "2024-04-10 07:13:21.519997204 UTC",
     "Validated By": "TOPPOOL-LEE",
     "Active": true,
-    "Updated At": "2024-04-18 07:00:26.798827094 UTC",
+    "Updated At": "2024-04-19 07:33:38.808912947 UTC",
     "Active Request ID": "be316778-1b72-454d-b7d1-d25b3f60867e",
     "On Chain Address": "f1gwje2izkfea2yglv6ujjzrugre5tperpp55qpia",
     "Multisig Address": "false",
@@ -68,9 +68,16 @@
       "Request Type": "Refill",
       "Created At": "2024-04-18 07:00:26.798832580 UTC",
       "Updated At": "2024-04-18 07:00:26.798833521 UTC",
-      "Active": true,
-      "Allocation Amount": "512TiB",
-      "Signers": []
+      "Active": false,
+      "Allocation Amount": "1PiB",
+      "Signers": [
+        {
+          "Github Username": "TOPPOOL-LEE",
+          "Signing Address": "f1grjkkw3p5hw3vx5gonvppkkzpcgmu4xnwfm7sli",
+          "Created At": "2024-04-19 07:33:36.228000000 UTC",
+          "Message CID": "bafy2bzacectdin32t7upyib7pbdvorx2qa2bv2e45puqxtzv5sgozpvkjnhra"
+        }
+      ]
     }
   ]
 }
