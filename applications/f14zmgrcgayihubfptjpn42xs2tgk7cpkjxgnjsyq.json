@@ -1,0 +1,66 @@
+{
+  "Version": "1.3",
+  "ID": "f14zmgrcgayihubfptjpn42xs2tgk7cpkjxgnjsyq",
+  "Issue Number": "18",
+  "Client": {
+    "Name": "World Health Organization",
+    "Region": "Switzerland",
+    "Industry": "Life Science / Healthcare",
+    "Website": "https://www.who.int/",
+    "Social Media": "Twitter: https://x.com/WHO",
+    "Social Media Type": "Twitter",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "Data Fortress is a leading organization dedicated to providing exceptional data services for AI firms and data science research. We specialize in data acquisition, storage, and analysis, ensuring our clients access accurate, secure, and comprehensive data solutions. Our mission is to empower AI and research projects with the highest quality data, driving innovation and excellence in the field of data science.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Providing better health information around the world is a core goal of the World Health Organization, which publicly releases their global health data through the Global Health Observatory (GHO). The GHO is a portal for understanding and analyzing the health situation and major issues.\r\nThe various datasets are organized by themes such as mortality, health systems, communicable and noncommunicable diseases, medicines and vaccines, health risks, etc. WHO health statistics are the best source of global health information and are also used by the Centers for Disease Control and Prevention in the United States.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "No response",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "http://www.who.int/gho/maternal_health/reproductive_health/en/",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Monthly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1.5 to 2 years",
+    "In which geographies do you plan on making storage deals": "Asia other than Greater China",
+    "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3), Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f01422327 - Japan\r\nf02252023 - Japan\r\nf02252024 - Japan\r\nf01989013 - Malaysia\r\nf01989014 - Malaysia\r\nf01989015 - Malaysia\r\nf02105010 - Malaysia\r\nf01111110 - Vietnam (potential participant)\r\nf01909705 - Vietnam (potential participant)",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "3PiB",
+    "Single Size Dataset": "400Tib",
+    "Replicas": 7,
+    "Weekly Allocation": "1024TiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2024-07-07 11:24:19.370418142 UTC",
+    "Validated By": "TOPPOOL-LEE",
+    "Active": true,
+    "Updated At": "2024-07-07 11:25:39.540117724 UTC",
+    "Active Request ID": "0652338d-1c91-4dd8-8f0a-1bf8054d568d",
+    "On Chain Address": "f14zmgrcgayihubfptjpn42xs2tgk7cpkjxgnjsyq",
+    "Multisig Address": "true",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "0652338d-1c91-4dd8-8f0a-1bf8054d568d",
+      "Request Type": "First",
+      "Created At": "2024-07-07 11:24:19.370426325 UTC",
+      "Updated At": "2024-07-07 11:24:19.370427663 UTC",
+      "Active": false,
+      "Allocation Amount": "256TiB",
+      "Signers": [
+        {
+          "Github Username": "TOPPOOL-LEE",
+          "Signing Address": "f1grjkkw3p5hw3vx5gonvppkkzpcgmu4xnwfm7sli",
+          "Created At": "2024-07-07 11:25:36.643000000 UTC",
+          "Message CID": "bafy2bzacecyc7nzrx5r3qvodxhqtg62oifbykrrqtdnc33uo2rrj5jzsmfkww"
+        }
+      ]
+    }
+  ]
+}
