@@ -1,0 +1,66 @@
+{
+  "Version": "1.3",
+  "ID": "f17qa7psscfah4rnyxcfhxj24v5wjp36wjsvilgiq",
+  "Issue Number": "22",
+  "Client": {
+    "Name": "EMPIAR Public dataset",
+    "Region": "United Kingdom",
+    "Industry": "Life Science / Healthcare",
+    "Website": "https://www.ebi.ac.uk/empiar",
+    "Social Media": "https://www.ebi.ac.uk/empiar",
+    "Social Media Type": "Slack",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "FileTech focuses on providing excellent data storage solutions. We have a passionate and knowledgeable team with extensive experience and expertise in the field of data storage. Whether it's data storage, data management, data recovery, or data center design and construction, we possess abundant technical capabilities and solutions.\r\n\r\nAt FileTech, we understand the importance of data in modern businesses. We not only offer high-performance data storage devices and solutions, but also provide comprehensive data management tools to help clients efficiently organize, classify, and protect their data assets.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "EMPIAR, the Electron Microscopy Public Image Archive, is a public resource for raw images underpinning 3D cryo-EM maps and tomograms (themselves archived in EMDB). EMPIAR also accommodates 3D datasets obtained with volume EM techniques and soft and hard X-ray tomography. More ...\r\nAs of 2023-03-27, EMPIAR contains 1254 entries, taking up 2.73 PB of storage.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "No response",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "Yes\r\nhttps://www.ebi.ac.uk/empiar",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "2 to 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, South America, Europe",
+    "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3), IPFS, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03028310\r\nf03028326\r\nf02984500\r\nf03028326\r\nf02830476",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "5PiB",
+    "Single Size Dataset": "1PiB",
+    "Replicas": 5,
+    "Weekly Allocation": "512TiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2024-07-07 11:29:21.088111316 UTC",
+    "Validated By": "TOPPOOL-LEE",
+    "Active": true,
+    "Updated At": "2024-07-07 11:31:22.804502377 UTC",
+    "Active Request ID": "d9c24101-ca84-4111-af77-6a65f4a4b7d1",
+    "On Chain Address": "f17qa7psscfah4rnyxcfhxj24v5wjp36wjsvilgiq",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "d9c24101-ca84-4111-af77-6a65f4a4b7d1",
+      "Request Type": "First",
+      "Created At": "2024-07-07 11:29:21.088119148 UTC",
+      "Updated At": "2024-07-07 11:29:21.088120973 UTC",
+      "Active": false,
+      "Allocation Amount": "256TiB",
+      "Signers": [
+        {
+          "Github Username": "TOPPOOL-LEE",
+          "Signing Address": "f1grjkkw3p5hw3vx5gonvppkkzpcgmu4xnwfm7sli",
+          "Created At": "2024-07-07 11:31:20.676000000 UTC",
+          "Message CID": "bafy2bzaceb32jv5pepp6d6bb6zb22zs2is5xsureujvrrektt6rwuhixyl2x6"
+        }
+      ]
+    }
+  ]
+}
