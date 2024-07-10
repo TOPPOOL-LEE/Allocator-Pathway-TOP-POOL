@@ -12,7 +12,6 @@
     "Role": "Data Preparer"
   },
   "Project": {
-    "Project Id": "DataVault Solutions-004",
     "Brief history of your project and organization": "DataVault Solutions is a leading company specializing in data storage and management. We provide reliable, secure, and efficient data storage solutions to help our clients manage and protect their critical business data.\r\n\r\nAs an innovative technology company, DataVault Solutions is dedicated to providing customized data storage solutions for businesses across various industries. Our team consists of experienced data management and technical experts with extensive knowledge and skills to address data requirements of different scales and complexities.\r\n\r\nOur core products include high-performance storage systems, cloud storage solutions, backup and recovery services, and data security solutions. Our solutions are designed to deliver reliability, scalability, and flexibility to meet the ever-growing data storage needs of our clients.",
     "Is this project associated with other projects/ecosystem stakeholders?": "No",
     "Describe the data being stored onto Filecoin": "USGS (United States Geological Survey) is a renowned open data website that serves as a valuable resource for a wide range of scientific information. This publicly accessible platform acts as a repository for diverse categories of data, including biology, climate, coastlines, ecosystems, geology, natural disasters, oceans, cartography, and planetary science.\r\n\r\nWith an extensive collection of data, USGS houses a staggering 10 Petabytes (10 Pib) of metadata. This vast wealth of information is made available to the public, allowing users to freely download, store, and utilize the data for various purposes.\r\n\r\nUSGS plays a crucial role in advancing scientific research, environmental studies, and resource management. The website serves as a hub for researchers, policymakers, educators, and the general public, offering a wealth of knowledge and insights into our natural world.\r\n\r\nThe data hosted on USGS covers a broad spectrum of disciplines, providing valuable insights into the Earth's systems and processes. From studying climate patterns and understanding geological formations to analyzing ecosystems and managing natural hazards, the website offers a comprehensive suite of data resources.",
@@ -40,8 +39,8 @@
     "Validated At": "2024-05-12 12:26:06.443737763 UTC",
     "Validated By": "TOPPOOL-LEE",
     "Active": true,
-    "Updated At": "2024-05-12 12:27:14.139052826 UTC",
-    "Active Request ID": "8c6b7784-e046-4e64-82bf-f6cb59ded5cc",
+    "Updated At": "2024-07-10 08:41:19.798856582 UTC",
+    "Active Request ID": "1402329f-5f4e-453d-9d85-a43e6e9c068b",
     "On Chain Address": "f1q4ywjzcyw7osmkcwqmr5asaf5sl2bh6zvn7umci",
     "Multisig Address": "false",
     "edited": false
@@ -60,6 +59,22 @@
           "Signing Address": "f1grjkkw3p5hw3vx5gonvppkkzpcgmu4xnwfm7sli",
           "Created At": "2024-05-12 12:27:11.153000000 UTC",
           "Message CID": "bafy2bzacea4exbotcrdux3x52i5e7prgu3obqv4nqdpl76lotkw45bb7rypm2"
+        }
+      ]
+    },
+    {
+      "ID": "1402329f-5f4e-453d-9d85-a43e6e9c068b",
+      "Request Type": "Refill",
+      "Created At": "2024-05-13 13:00:05.709125162 UTC",
+      "Updated At": "2024-05-13 13:00:05.709126279 UTC",
+      "Active": false,
+      "Allocation Amount": "512TiB",
+      "Signers": [
+        {
+          "Github Username": "TOPPOOL-LEE",
+          "Signing Address": "f1grjkkw3p5hw3vx5gonvppkkzpcgmu4xnwfm7sli",
+          "Created At": "2024-07-10 08:41:17.087000000 UTC",
+          "Message CID": "bafy2bzacebrccfcy6jppipznydwivj6rfvq4rmb2pdxeqnhrfazi5rg7demo2"
         }
       ]
     }
