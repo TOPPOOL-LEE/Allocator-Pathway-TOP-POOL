@@ -35,7 +35,7 @@
     "Weekly Allocation": "512TiB"
   },
   "Lifecycle": {
-    "State": "ChangesRequested",
+    "State": "Granted",
     "Validated At": "2024-07-07 11:29:21.088111316 UTC",
     "Validated By": "TOPPOOL-LEE",
     "Active": true,
