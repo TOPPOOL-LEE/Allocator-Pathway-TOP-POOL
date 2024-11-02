@@ -35,15 +35,25 @@
     "Weekly Allocation": "1PiB"
   },
   "Lifecycle": {
-    "State": "Submitted",
-    "Validated At": "2024-11-01 04:50:29.834926439 UTC",
+    "State": "ReadyToSign",
+    "Validated At": "2024-11-02 00:55:15.584779249 UTC",
     "Validated By": "TOPPOOL-LEE",
     "Active": true,
-    "Updated At": "2024-11-01 04:50:29.834931302 UTC",
-    "Active Request ID": "d0dfaf71-12b6-47e1-9831-e056daf32760",
+    "Updated At": "2024-11-02 00:55:15.584783110 UTC",
+    "Active Request ID": "d6245cee-7ba7-45bb-8cf1-e8f6ca71a1b2",
     "On Chain Address": "f1y2mpni26wiicjt3yvw7xi3z7j2ri4gi2xvwtrpi",
     "Multisig Address": "false",
     "edited": false
   },
-  "Allocation Requests": []
+  "Allocation Requests": [
+    {
+      "ID": "d6245cee-7ba7-45bb-8cf1-e8f6ca71a1b2",
+      "Request Type": "First",
+      "Created At": "2024-11-02 00:55:15.584785437 UTC",
+      "Updated At": "2024-11-02 00:55:15.584786895 UTC",
+      "Active": true,
+      "Allocation Amount": "256TiB",
+      "Signers": []
+    }
+  ]
 }
