@@ -12,7 +12,7 @@
     "Role": "Data Preparer"
   },
   "Project": {
-    "Brief history of your project and organization": "FrogHub has always defined itself as a tool developer and infrastructure builder in the Filecoin ecosystem. In 2019, we started to focus on technical solutions and development based on the IPFS protocol and Filecoin network. We have been working hard to become a qualified builder in the filecoin ecosystem.\r\n\r\nOur team is a very pure development team, more than 90% of which are developers, more than half of whom have more than 5 years of development experience in communication, Internet, blockchain and other industries. We hope that we can gain users' recognition by exporting useful tools and platforms.\r\n\r\nIn order to contribute to the filecoin community, we have developed the open source sector repair tool Filecoin-Sealer-Recover and the nft free authoring platform NFT-Creator.\r\nIn addition, we plan to provide a sector browser for the community in 2023 and build the liquidity pledge platform STFIL on FVM.\r\n\r\nSee the links below for details.\r\n- making: https://github.com/orgs/froghub-io",
+    "Brief history of your project and organization": "we are the development team, more than 90% of which are developers, more than half of whom have more than 5 years of development experience in communication, Internet, blockchain and other industries. We hope that we can gain users' recognition by exporting useful tools and platforms.\r\n",
     "Is this project associated with other projects/ecosystem stakeholders?": "No",
     "Describe the data being stored onto Filecoin": "Disclaimer: \r\nDue to un-answered issues around whether combined requests or duplicate requests can be used to apply LDN. This is a series of recent new open datasets never applied by anybody (aka calling dibs).\r\n\r\nDescription: \r\nThe Cell Painting Gallery is a collection of image datasets created using the Cell Painting assay. The images of cells are captured by microscopy imaging, and reveal the response of various labeled cell components to whatever treatments are tested, which can include genetic perturbations, chemicals or drugs, or different cell types. \r\n\r\ns3://cellpainting-gallery",
     "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
@@ -43,7 +43,7 @@
     "Active Request ID": "d6245cee-7ba7-45bb-8cf1-e8f6ca71a1b2",
     "On Chain Address": "f1y2mpni26wiicjt3yvw7xi3z7j2ri4gi2xvwtrpi",
     "Multisig Address": "false",
-    "edited": false
+    "edited": true
   },
   "Allocation Requests": [
     {
