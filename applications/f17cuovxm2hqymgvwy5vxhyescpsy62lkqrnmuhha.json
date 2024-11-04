@@ -35,7 +35,7 @@
     "Weekly Allocation": "1 PiB"
   },
   "Lifecycle": {
-    "State": "ChangesRequested",
+    "State": "Granted",
     "Validated At": "2024-10-31 07:18:08.571392028 UTC",
     "Validated By": "TOPPOOL-LEE",
     "Active": true,
