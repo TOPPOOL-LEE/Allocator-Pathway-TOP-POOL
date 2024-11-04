@@ -1,0 +1,66 @@
+{
+  "Version": "1.3",
+  "ID": "f1zfi4maamodbdpizcewkwjctp43v7tzy5ucc5lny",
+  "Issue Number": "46",
+  "Client": {
+    "Name": "Sloan Digital Sky Survey",
+    "Region": "United States",
+    "Industry": "Life Science / Healthcare",
+    "Website": "https://www.sdss.org/",
+    "Social Media": "https://www.sdss.org/",
+    "Social Media Type": "Slack",
+    "Role": "Dataset Owner"
+  },
+  "Project": {
+    "Brief history of your project and organization": "I joined the filecoin network in 2021, and made the cc package of fil at the very beginning.  In 2022, we did a part of cc to dc conversion, and now we have a planned continuous development of data storage.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "The Sloan Digital Sky Survey (SDSS) is one of the most ambitious and influential surveys in the history of astronomy. \r\nThe SDSS project has established in 2000, five periods, 18 times data released. The 19th DR will be in 2024. \r\nAs for now, there are about 750TB volume of data can be accessed.  5.5 million directories, 400 million files. \r\nDR1-DR7: SDSS-I, 2000-2005; SDSS-II, 2005-2008), it obtained deep, multi-color images covering more than a quarter of the sky and created 3-dimensional maps containing more than 930,000 galaxies and more than 120,000 quasars.\r\nDR8: contains all images from the SDSS telescope - the largest color image of the sky ever made. It also includes measurements for nearly 500 million stars and galaxies, and spectra of nearly two million. \r\nDR9 contains the first release of BOSS spectroscopy to the public as well as several significant updates to the cumulative SDSS archive\r\nDR10 contains the first release of APOGEE infrared Galactic spectroscopy as well as cumulative updates to the BOSS optical extragalactic spectroscopy archive\r\nThe SDSS began regular survey operations in 2000, after a decade of design and construction.  It has progressed through several phases, SDSS-I (2000-2005), SDSS-II (2005-2008), SDSS-III (2008-2014), and SDSS-IV (2014-2020).  Each of these phases has involved multiple surveys with interlocking science goals.  The three surveys that comprise SDSS-IV are eBOSS (including SPIDERS and TDSS), APOGEE-2, and MaNGA (including MaStar),\r\nThe SDSS-V Pioneering Panoptic Spectroscopy program started observing in October 2020, and consists of three surveys, known in SDSS-V terminology as mapper programs.\r\n\r\nMilky Way Mapper is a multi-object spectroscopic survey to obtain near-infrared and/or optical spectra of more than 4 million stars throughout the Milky Way and Local Group\r\nLocal Volume Mapper is an optical, integral-field spectroscopic survey that will target the Milky Way, Small and Large Magellanic Clouds, and other Local Volume galaxies\r\nBlack Hole Mapper is a multi-object spectroscopic survey that emphasizes optical spectra (often also with multiple epochs of spectroscopy) for more than 300,000 quasars",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "No response",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "http://classic.sdss.org/dr7/\r\nhttp://sdss3.org/\r\nhttps://www.sdss4.org/dr17/data_access/volume/\r\nhttps://dr17.sdss.org/sas/dr17/apogee/spectro/aspcap/\r\nhttps://dr17.sdss.org/sas/dr17/apogee/spectro/speclib/",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "2 to 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, Europe",
+    "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3), Shipping hard drives, Lotus built-in data transfer",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03151449, Shenzhen, China           \r\nf03151456, Shenzhen, China               \r\nf03179570, Singapore       \r\nf03179555, Singapore           \r\nf03178077, Tokyo, Japan   \r\nf03178144, Tokyo, Japan   \r\nf03179572, US \r\nf03214937, US \r\nf03229932, South Korea\r\nf03229933, South Korea",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "6PiB",
+    "Single Size Dataset": "600TiB",
+    "Replicas": 10,
+    "Weekly Allocation": "1PiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2024-11-04 07:57:59.629935745 UTC",
+    "Validated By": "TOPPOOL-LEE",
+    "Active": true,
+    "Updated At": "2024-11-04 08:01:32.797549758 UTC",
+    "Active Request ID": "8afa27dd-e6ef-4ecc-9446-1c7c25baf239",
+    "On Chain Address": "f1zfi4maamodbdpizcewkwjctp43v7tzy5ucc5lny",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "8afa27dd-e6ef-4ecc-9446-1c7c25baf239",
+      "Request Type": "First",
+      "Created At": "2024-11-04 07:57:59.629942301 UTC",
+      "Updated At": "2024-11-04 07:57:59.629943500 UTC",
+      "Active": false,
+      "Allocation Amount": "256TiB",
+      "Signers": [
+        {
+          "Github Username": "TOPPOOL-LEE",
+          "Signing Address": "f1grjkkw3p5hw3vx5gonvppkkzpcgmu4xnwfm7sli",
+          "Created At": "2024-11-04 08:01:30.138000000 UTC",
+          "Message CID": "bafy2bzaceb4unzizm5hzzn5ggf2qj6md67zvqhrbsrg6zrha6pkxqjm4x3r3m"
+        }
+      ]
+    }
+  ]
+}
