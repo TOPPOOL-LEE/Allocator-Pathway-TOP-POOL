@@ -12,7 +12,7 @@
     "Role": "Data Preparer"
   },
   "Project": {
-    "Brief history of your project and organization": "FrogHub has always defined itself as a tool developer and infrastructure builder in the Filecoin ecosystem. In 2019, we started to focus on technical solutions and development based on the IPFS protocol and Filecoin network. We have been working hard to become a qualified builder in the filecoin ecosystem.\r\n\r\nOur team is a very pure development team, more than 90% of which are developers, more than half of whom have more than 5 years of development experience in communication, Internet, blockchain and other industries. We hope that we can gain users' recognition by exporting useful tools and platforms.\r\n\r\nIn order to contribute to the filecoin community, we have developed the open source sector repair tool Filecoin-Sealer-Recover and the nft free authoring platform NFT-Creator.\r\nIn addition, we plan to provide a sector browser for the community in 2023 and build the liquidity pledge platform STFIL on FVM.\r\n\r\nSee the links below for details.\r\n\r\nmaking: https://github.com/orgs/froghub-io",
+    "Brief history of your project and organization": "\r\nOur team is a very pure development team, more than half of whom have more than 5 years of development experience in communication, Internet, blockchain and other industries. \r\n",
     "Is this project associated with other projects/ecosystem stakeholders?": "No",
     "Describe the data being stored onto Filecoin": "Zarr formatted data and Netcdf formatted data.\r\nThe sixth phase of global coupled ocean-atmosphere general circulation model ensemble.",
     "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
