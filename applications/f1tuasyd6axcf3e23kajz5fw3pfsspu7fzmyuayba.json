@@ -1,0 +1,66 @@
+{
+  "Version": "1.3",
+  "ID": "f1tuasyd6axcf3e23kajz5fw3pfsspu7fzmyuayba",
+  "Issue Number": "58",
+  "Client": {
+    "Name": "U.S. National Library of Medicine",
+    "Region": "United States",
+    "Industry": "Life Science / Healthcare",
+    "Website": "https://www.nlm.nih.gov/",
+    "Social Media": "https://x.com/NLM_NIH",
+    "Social Media Type": "Twitter",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "Byte Tunneling was founded in 2020 with a mission to facilitate open scientific research by preparing and managing large-scale datasets. With a background in handling high-energy physics data, Byte Tunneling has been trying to collaborate with global research institutions to prepare and organize public data.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "The NCBI (National Center for Biotechnology Information) dataset includes a vast collection of biological and genetic data, providing resources for research in genomics, proteomics, and bioinformatics. It is widely used for studying various aspects of biology and health.",
+    "Where was the data currently stored in this dataset sourced from": "Other",
+    "How do you plan to prepare the dataset": "A partner we met at a meetup provided tools that were re-engineered using components from IPFS.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://ftp.ncbi.nih.gov/biosample/biosample_set.xml.gz",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "Permanently",
+    "In which geographies do you plan on making storage deals": "Asia other than Greater China",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f01422327, Japan\r\nf02252024, Japan\r\nf02252023, Japan\r\nf01111110, Vietnam\r\nf01909705, Vietnam\r\nf03215853, US\r\nf03218576, US",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "14 PiB",
+    "Single Size Dataset": "2 PiB",
+    "Replicas": 7,
+    "Weekly Allocation": "1000 TiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2024-12-13 15:50:14.062956173 UTC",
+    "Validated By": "TOPPOOL-LEE",
+    "Active": true,
+    "Updated At": "2024-12-13 15:50:14.062952640 UTC",
+    "Active Request ID": "cfd9808b-731e-46ae-9395-5b289cf7053f",
+    "On Chain Address": "f1tuasyd6axcf3e23kajz5fw3pfsspu7fzmyuayba",
+    "Multisig Address": "true",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "cfd9808b-731e-46ae-9395-5b289cf7053f",
+      "Request Type": "First",
+      "Created At": "2024-12-13 15:46:54.865725603 UTC",
+      "Updated At": "2024-12-13 15:46:54.865727206 UTC",
+      "Active": false,
+      "Allocation Amount": "256TiB",
+      "Signers": [
+        {
+          "Github Username": "TOPPOOL-LEE",
+          "Signing Address": "f1grjkkw3p5hw3vx5gonvppkkzpcgmu4xnwfm7sli",
+          "Created At": "2024-12-13 15:50:11.291000000 UTC",
+          "Message CID": "bafy2bzacedyut2qldcdtph3bl2nc6ja7erq6ki4xkykomygvmpfngwigbekvg"
+        }
+      ]
+    }
+  ]
+}
