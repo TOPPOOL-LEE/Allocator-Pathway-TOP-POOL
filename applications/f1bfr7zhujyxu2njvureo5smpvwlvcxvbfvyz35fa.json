@@ -16,7 +16,7 @@
     "Is this project associated with other projects/ecosystem stakeholders?": "No",
     "Describe the data being stored onto Filecoin": "Geosnap Data contains several datasets (as Quilt packages) created by the Center for Geospatial Sciences (CGS) at the University of California, Riverside. The data in this bucket includes the following:\n\nTabular and geographic data from the U.S. Census\nLand cover imagery collected by the Multiresolution Land Features Consortium\nRoad network data processed from OpenStreetMap",
     "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
-    "How do you plan to prepare the dataset": "",
+    "How do you plan to prepare the dataset": "We use Python and other tools to collect and organize data, and we build upon that foundation. We utilize the Pandas library in Python to ensure that the data has no duplicates and to handle missing values or outliers. Then, we segment the data and convert it into a format supported by Filecoin.\n",
     "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "Data files are stored in a public bucket in Apache Parquet and GeoTiff formats\nResource type\nS3 bucket\nAmazon Resource Name (ARN)\narn:aws:s3:::spatial-ucr\nAWS region\nus-east-1\nAWS CLI access (no AWS account required)\naws s3 ls --no-sign-request s3://spatial-ucr/",
     "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
     "What is the expected retrieval frequency for this data": "Yearly",
