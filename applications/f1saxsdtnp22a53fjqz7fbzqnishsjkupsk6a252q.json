@@ -35,12 +35,12 @@
     "Weekly Allocation": "1 PiB"
   },
   "Lifecycle": {
-    "State": "Granted",
-    "Validated At": "2024-12-13 14:52:35.402367825 UTC",
+    "State": "ReadyToSign",
+    "Validated At": "2025-02-25 13:02:19.705651242 UTC",
     "Validated By": "TOPPOOL-LEE",
     "Active": true,
-    "Updated At": "2024-12-13 14:52:35.402364633 UTC",
-    "Active Request ID": "1b1cd99b-3455-4165-9499-b97b3d93fc76",
+    "Updated At": "2025-02-25 13:02:19.705654397 UTC",
+    "Active Request ID": "317678aa-529a-4094-8ed4-0910a981e8fc",
     "On Chain Address": "f1saxsdtnp22a53fjqz7fbzqnishsjkupsk6a252q",
     "Multisig Address": "false",
     "edited": false
@@ -93,6 +93,15 @@
           "Message CID": "bafy2bzacec5cbejfrg6wesz3chiy4lof4qffmiswhlpn7bmahsg3vb7bcbs62"
         }
       ]
+    },
+    {
+      "ID": "317678aa-529a-4094-8ed4-0910a981e8fc",
+      "Request Type": "Refill",
+      "Created At": "2025-02-25 13:02:19.705659445 UTC",
+      "Updated At": "2025-02-25 13:02:19.705660160 UTC",
+      "Active": true,
+      "Allocation Amount": "2PiB",
+      "Signers": []
     }
   ]
 }
