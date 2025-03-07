@@ -23,7 +23,7 @@
     "For how long do you plan to keep this dataset stored on Filecoin": "1.5 to 2 years",
     "In which geographies do you plan on making storage deals": "Greater China, North America, Europe, South America, Asia other than Greater China",
     "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3), HTTP or FTP server, IPFS, Shipping hard drives",
-    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f02865213 United States\nf02887063 United States\nf02927642 Vietnam\nf02953218 Russia\n\nWe will update once the new SP is confirmed.",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f02865213 United States\nf02887063 United States\nf02927642 Vietnam\nf02953218 Russia\nSince you only signed 256T for us and then suspended it, after you resumed it for us, these SPs no longer cooperated with us, so we found other SPs.\n\nf02869125 France\nf02916974 United States\nf02952530 Thailand\nf03233356 South Korea\nf03358608 HK\nf03493287 HK\nf03312989 HK\nf03253403 HK\nf014686  US\nf014699  US\n\nWe will update once the new SP is confirmed.",
     "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
   },
   "Datacap": {
@@ -43,7 +43,7 @@
     "Active Request ID": "e54e9800-9deb-4184-a188-b857dd3cc41f",
     "On Chain Address": "f1bfr7zhujyxu2njvureo5smpvwlvcxvbfvyz35fa",
     "Multisig Address": "false",
-    "edited": false
+    "edited": true
   },
   "Allocation Requests": [
     {
