@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f17ti2t4bhrszdyfl7pecvjhnyj4q5lo5p5yuyg3a",
+  "Issue Number": "91",
+  "Client": {
+    "Name": "HYCOM",
+    "Region": "United States",
+    "Industry": "Environment",
+    "Website": "https://registry.opendata.aws/hycom-gofs-3pt1-reanalysis/",
+    "Social Media": "https://registry.opendata.aws/hycom-gofs-3pt1-reanalysis/；https://www.hycom.org/dataserver/gofs-3pt1/reanalysis",
+    "Social Media Type": "Other",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "The HYCOM consortium is a multi-institutional effort sponsored by the National Ocean Partnership Program (NOPP), as part of the U. S. Global Ocean Data Assimilation Experiment (GODAE), to develop and evaluate a data-assimilative hybrid isopycnal-sigma-pressure (generalized) coordinate ocean model (called HYbrid Coordinate Ocean Model or HYCOM). The GODAE objectives of three-dimensional depiction of the ocean state at fine resolution in real time, provision of boundary conditions for coastal and regional models, and provision of oceanic boundary conditions for a global coupled ocean-atmosphere prediction model, are being addressed by a partnership of institutions that represent a broad spectrum of the oceanographic community.\n\nRead more...\n \nHYCOM Overview\nTraditional vertical coordinate choices [z-level, terrain-following (sigma), isopycnic] are not by themselves optimal everywhere in the ocean, as pointed out by recent model comparison exercises performed in Europe (DYnamics of North Atlantic MOdels - DYNAMO) and in the U.S. (Data Assimilation and Model Evaluation Experiment - DAMEE). Ideally, an ocean general circulation model (OGCM) should (a) retain its water mass characteristics for centuries (a characteristic of isopycnic coordinates), (b) have high vertical resolution in the surface mixed layer (a characteristic of z-level coordinates) for proper representation of thermodynamical and biochemical processes, (c) maintain sufficient vertical resolution in unstratified or weakly-stratified regions of the ocean, and (d) have high vertical resolution in coastal regions (a characteristic of terrain-following coordinates).\n\nRead more...\n \nData Server\nHYCOM.org provides access to near real time global HYCOM + NCODA based ocean prediction system output. The ocean prediction system runs daily at the Navy DoD Supercomputing Resource Center. Upon completion, these data are remotely copied to our local HYCOM.org servers for additional processing. Daily data is typically accessible within 48-hrs of the initial runtime.\n\nThis site also provides access to several other global and regional datasets. The data are in NetCDF format and can be accessed using OPeNDAP enabled clients. Click here for a list of pre-packaged OPeNDAP enabled clients. OPeNDAP URL's for all datasets are available from the HYCOM THREDDS Catalog.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "HYCOM.org provides access to near real time global HYCOM + NCODA based ocean prediction system output. The ocean prediction system runs daily at the Navy DoD Supercomputing Resource Center. Upon completion, these data are remotely copied to our local HYCOM.org servers for additional processing. Daily data is typically accessible within 48-hrs of the initial runtime.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "Resource type\nS3 Bucket\nAmazon Resource Name (ARN)\narn:aws:s3:::hycom-gofs-3pt1-reanalysis\nAWS Region\nus-west-2\nAWS CLI Access (No AWS account required)\naws s3 ls --no-sign-request s3://hycom-gofs-3pt1-reanalysis/",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://www.hycom.org/dataserver/espc-d-v02/global-analysis\nhttps://www.hycom.org/data/gomb0pt01/gom-reanalysis\nhttps://www.hycom.org/data/gomb0pt04/gom-reanalysis\nhttps://www.hycom.org/dataserver/gofs-3pt1/analysis\nhttps://www.hycom.org/data/gomu0pt04/expt-90pt1m000\nhttps://www.hycom.org/dataserver/gofs-3pt1/reanalysis",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "2 to 3 years",
+    "In which geographies do you plan on making storage deals": "Asia other than Greater China, Greater China, North America, Europe",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, IPFS, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "1",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "5PiB",
+    "Single Size Dataset": "500TiB",
+    "Replicas": 10,
+    "Weekly Allocation": "1PiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2025-04-24 02:26:34.180313238 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f17ti2t4bhrszdyfl7pecvjhnyj4q5lo5p5yuyg3a",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
