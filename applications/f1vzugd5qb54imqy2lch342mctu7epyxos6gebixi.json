@@ -3,21 +3,21 @@
   "ID": "f1vzugd5qb54imqy2lch342mctu7epyxos6gebixi",
   "Issue Number": "96",
   "Client": {
-    "Name": "Frederico Liporace",
+    "Name": "Frederico Liporace、National Institute of Standards and Technology、Monterey Bay Aquarium Research Institute",
     "Region": "Brazil",
     "Industry": "Environment",
-    "Website": "https://registry.opendata.aws/amazonia/",
-    "Social Media": "https://registry.opendata.aws/amazonia/",
+    "Website": "https://registry.opendata.aws/amazonia\nhttps://registry.opendata.aws/pacific-sound\nhttps://registry.opendata.aws/giab/",
+    "Social Media": "https://registry.opendata.aws/amazonia\nhttps://registry.opendata.aws/pacific-sound\nhttps://registry.opendata.aws/giab",
     "Social Media Type": "Other",
     "Role": "Data Preparer"
   },
   "Project": {
-    "Brief history of your project and organization": "As technical developers, we joined web3 very early and developed some projects. At the same time, we learned about Filecoin three years ago and helped SP download, store, back up, and repair data in the past year.",
+    "Brief history of your project and organization": "As technical developers, we joined web3 early and developed some projects. At the same time, we learned about Filecoin three years ago and helped SP download, store, back up, and repair data in the past year.",
     "Is this project associated with other projects/ecosystem stakeholders?": "No",
-    "Describe the data being stored onto Filecoin": "Imagery acquired by Amazonia-1 satellite. The image files are recorded and processed by Instituto Nacional de Pesquisas Espaciais (INPE) and are converted to Cloud Optimized Geotiff format in order to optimize its use for cloud based applications. WFI Level 4 (Orthorectified) scenes are being ingested daily starting from 08-29-2022, the complete Level 4 archive will be ingested by the end of October 2022.\n\nImagery acquired by the China-Brazil Earth Resources Satellite (CBERS), 4 and 4A. The image files are recorded and processed by Instituto Nacional de Pesquisas Espaciais (INPE) and are converted to Cloud Optimized Geotiff format in order to optimize its use for cloud based applications. Contains all CBERS-4 MUX, AWFI, PAN5M and PAN10M scenes acquired since the start of the satellite mission and is daily updated with new scenes. CBERS-4A MUX Level 4 (Orthorectified) scenes are being ingested starting from 04-13-2021. CBERS-4A WFI Level 4 (Orthorectified) scenes are being ingested starting from",
+    "Describe the data being stored onto Filecoin": "https://registry.opendata.aws/amazonia：\nImagery acquired by Amazonia-1 satellite. The image files are recorded and processed by Instituto Nacional de Pesquisas Espaciais (INPE) and are converted to Cloud Optimized Geotiff format in order to optimize its use for cloud based applications. WFI Level 4 (Orthorectified) scenes are being ingested daily starting from 08-29-2022, the complete Level 4 archive will be ingested by the end of October 2022.\n\nhttps://registry.opendata.aws/pacific-sound：\nThis project offers passive acoustic data (sound recordings) from a deep-ocean environment off central California. Recording began in July 2015, has been nearly continuous, and is ongoing. These resources are intended for applications in ocean soundscape research, education, and the arts.\n\nhttps://registry.opendata.aws/giab：\nSeveral reference genomes to enable translation of whole human genome sequencing to clinical practice.\n",
     "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
-    "How do you plan to prepare the dataset": "",
-    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://github.com/stactools-packages/amazonia-1\nhttps://developmentseed.org/blog/2023-10-20-asdi/\n\nDescription\nAmazonia 1 imagery (COG files, quicklooks, metadata)\nResource type\nS3 Bucket\nAmazon Resource Name (ARN)\narn:aws:s3:::brazil-eosats\nAWS Region\nus-west-2\nAWS CLI Access (No AWS account required)\naws s3 ls --no-sign-request s3://brazil-eosats/\nExplore\nSTAC V1.0.0 endpoint\nstacindex\nDescription\nSTAC static catalog\nResource type\nS3 Bucket\nAmazon Resource Name (ARN)\narn:aws:s3:::br-eo-stac-1-0-0\nAWS Region\nus-west-2\nAWS CLI Access (No AWS account required)\naws s3 ls --no-sign-request s3://br-eo-stac-1-0-0/\nDescription\nNotifications for new quicklooks\nResource type\nSNS Topic\nAmazon Resource Name (ARN)\narn:aws:sns:us-west-2:599544552497:NewAM1Quicklook\nAWS Region\nus-west-2\nDescription\nTopic that receives STAC V1.0.0 items as new scenes are ingested\nResource type\nSNS Topic\nAmazon Resource Name (ARN)\narn:aws:sns:us-west-2:769537946825:br-eo-stac-prod-stacitemtopic4BCE3141-Z8he7LYjqXFe\nAWS Region\nus-west-2",
+    "How do you plan to prepare the dataset": "We developed our own platform using tools developed by Venus. In terms of data retrieval, the feature is to use scripts to traverse and execute. In terms of data download, we download the data according to the AWS command line. After downloading, we use the open source go-graphsplit of the fileddrive-team to cut it into small files of a specified size. The csv file will store the piece_cid and size information corresponding to the source file.\n",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "\nhttps://github.com/stactools-packages/amazonia-1\nhttps://developmentseed.org/blog/2023-10-20-asdi/\n\nDescription\nAmazonia 1 imagery (COG files, quicklooks, metadata)\nResource type\nS3 Bucket\nAmazon Resource Name (ARN)\narn:aws:s3:::brazil-eosats\nAWS Region\nus-west-2\nAWS CLI Access (No AWS account required)\naws s3 ls --no-sign-request s3://brazil-eosats/\nExplore\nSTAC V1.0.0 endpoint\nstacindex\n\nDescription\nSTAC static catalog\nResource type\nS3 Bucket\nAmazon Resource Name (ARN)\narn:aws:s3:::br-eo-stac-1-0-0\nAWS Region\nus-west-2\nAWS CLI Access (No AWS account required)\naws s3 ls --no-sign-request s3://br-eo-stac-1-0-0/\n\n\nhttps://registry.opendata.aws/pacific-sound\nhttps://docs.mbari.org/pacific-sound/\nhttps://www.cell.com/current-biology/about\nhttps://journals.plos.org/plosone/article?id=10.1371/journal.pone.0222456\nDescription\noriginal 256 kHz audio recordings year 2015\nResource type\nS3 Bucket\nAmazon Resource Name (ARN)\narn:aws:s3:::pacific-sound-256khz-2015\nAWS Region\nus-west-2\nAWS CLI Access (No AWS account required)\naws s3 ls --no-sign-request s3://pacific-sound-256khz-2015/\n\nDescription\noriginal 256 kHz audio recordings year 2016\nResource type\nS3 Bucket\nAmazon Resource Name (ARN)\narn:aws:s3:::pacific-sound-256khz-2016\nAWS Region\nus-west-2\nAWS CLI Access (No AWS account required)\naws s3 ls --no-sign-request s3://pacific-sound-256khz-2016/\n\nhttps://registry.opendata.aws/giab\nhttp://giab.s3.amazonaws.com/current.tree\nhttp://giab.s3.amazonaws.com/README.ftp_structure\n\nDescription\nGIAB release data, last updated 11/12/2020.\nResource type\nS3 Bucket\nAmazon Resource Name (ARN)\narn:aws:s3:::giab\nAWS Region\nus-east-1\nAWS CLI Access (No AWS account required)\naws s3 ls --no-sign-request s3://giab/",
     "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
     "What is the expected retrieval frequency for this data": "Yearly",
     "For how long do you plan to keep this dataset stored on Filecoin": "2 to 3 years",
@@ -29,9 +29,9 @@
   "Datacap": {
     "Type": "ldn-v3",
     "Data Type": "Slingshot",
-    "Total Requested Amount": "4.5PiB",
-    "Single Size Dataset": "500TiB",
-    "Replicas": 9,
+    "Total Requested Amount": "5.5PiB",
+    "Single Size Dataset": "550TiB",
+    "Replicas": 10,
     "Weekly Allocation": "1PiB"
   },
   "Lifecycle": {
