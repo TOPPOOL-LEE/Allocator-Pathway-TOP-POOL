@@ -7,8 +7,8 @@
     "Region": "United States",
     "Industry": "Life Science / Healthcare",
     "Website": "https://registry.opendata.aws/jwst/",
-    "Social Media": "https://registry.opendata.aws/jwst/",
-    "Social Media Type": "Slack",
+    "Social Media": "JWST Observer website: jwst.stsci.edu\nFacebook: facebook.com/JWSTObserver\nTwitter:twitter.com/JWSTObserver\nYouTube: https://www.youtube.com/jwstobserver",
+    "Social Media Type": "Twitter 、YouTube、Facebook",
     "Role": "Data Preparer"
   },
   "Project": {
@@ -29,9 +29,9 @@
   "Datacap": {
     "Type": "ldn-v3",
     "Data Type": "Slingshot",
-    "Total Requested Amount": "4PiB",
-    "Single Size Dataset": "512TiB",
-    "Replicas": 8,
+    "Total Requested Amount": "3PiB",
+    "Single Size Dataset": "300TiB",
+    "Replicas": 10,
     "Weekly Allocation": "1PiB"
   },
   "Lifecycle": {
