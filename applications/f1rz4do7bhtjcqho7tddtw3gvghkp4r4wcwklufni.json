@@ -2,6 +2,7 @@
   "Version": "1.3",
   "ID": "f1rz4do7bhtjcqho7tddtw3gvghkp4r4wcwklufni",
   "Issue Number": "110",
+  "Client Contract Address": "f410fhbmfnwccrxiu25gcn6jolz3cavo6r57ko22aeha",
   "Client": {
     "Name": "James Webb Space Telescope",
     "Region": "United States",
@@ -35,15 +36,25 @@
     "Weekly Allocation": "2PiB"
   },
   "Lifecycle": {
-    "State": "Submitted",
-    "Validated At": "",
-    "Validated By": "",
+    "State": "ReadyToSign",
+    "Validated At": "2025-06-01 05:25:40.573650006 UTC",
+    "Validated By": "TOPPOOL-LEE",
     "Active": true,
-    "Updated At": "2025-06-01 05:20:23.282808806 UTC",
-    "Active Request ID": "",
+    "Updated At": "2025-06-01 05:25:40.573654296 UTC",
+    "Active Request ID": "4535054a-f382-41d7-b043-dfc8704188ce",
     "On Chain Address": "f1rz4do7bhtjcqho7tddtw3gvghkp4r4wcwklufni",
     "Multisig Address": "false",
     "edited": false
   },
-  "Allocation Requests": []
+  "Allocation Requests": [
+    {
+      "ID": "4535054a-f382-41d7-b043-dfc8704188ce",
+      "Request Type": "First",
+      "Created At": "2025-06-01 05:25:40.573656044 UTC",
+      "Updated At": "2025-06-01 05:25:40.573656986 UTC",
+      "Active": true,
+      "Allocation Amount": "281474976710656 B",
+      "Signers": []
+    }
+  ]
 }
