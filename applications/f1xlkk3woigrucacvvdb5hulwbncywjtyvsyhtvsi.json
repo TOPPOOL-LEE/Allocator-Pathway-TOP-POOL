@@ -2,6 +2,7 @@
   "Version": "1.3",
   "ID": "f1xlkk3woigrucacvvdb5hulwbncywjtyvsyhtvsi",
   "Issue Number": "118",
+  "Client Contract Address": "f410fhbmfnwccrxiu25gcn6jolz3cavo6r57ko22aeha",
   "Client": {
     "Name": "1",
     "Region": "Afghanistan",
@@ -35,15 +36,25 @@
     "Weekly Allocation": "100TiB"
   },
   "Lifecycle": {
-    "State": "KYCRequested",
-    "Validated At": "",
-    "Validated By": "",
+    "State": "ReadyToSign",
+    "Validated At": "2025-06-09 07:58:20.229065214 UTC",
+    "Validated By": "TOPPOOL-LEE",
     "Active": true,
-    "Updated At": "2025-06-09 07:57:29.879804376 UTC",
-    "Active Request ID": "",
+    "Updated At": "2025-06-09 07:58:20.229069151 UTC",
+    "Active Request ID": "42dae9da-b18e-42da-a2a4-045c50533542",
     "On Chain Address": "f1xlkk3woigrucacvvdb5hulwbncywjtyvsyhtvsi",
     "Multisig Address": "false",
     "edited": false
   },
-  "Allocation Requests": []
+  "Allocation Requests": [
+    {
+      "ID": "42dae9da-b18e-42da-a2a4-045c50533542",
+      "Request Type": "First",
+      "Created At": "2025-06-09 07:58:20.229071161 UTC",
+      "Updated At": "2025-06-09 07:58:20.229072194 UTC",
+      "Active": true,
+      "Allocation Amount": "274877906944 B",
+      "Signers": []
+    }
+  ]
 }
