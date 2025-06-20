@@ -37,11 +37,11 @@
   },
   "Lifecycle": {
     "State": "Granted",
-    "Validated At": "2025-06-16 01:30:36.586043496 UTC",
+    "Validated At": "2025-06-20 15:06:10.120344058 UTC",
     "Validated By": "TOPPOOL-LEE",
     "Active": true,
-    "Updated At": "2025-06-16 01:30:36.586042294 UTC",
-    "Active Request ID": "4e8120d7-adf2-44fc-9ce0-fb98f9c2a233",
+    "Updated At": "2025-06-20 15:06:10.120343466 UTC",
+    "Active Request ID": "7f9cb032-40cc-44e0-90c6-a928bac6ef81",
     "On Chain Address": "f1krq6qflo4lz5sk5uxwcba4oddwqehxcsianodei",
     "Multisig Address": "false",
     "edited": false
@@ -134,6 +134,35 @@
           "Add Allowed Storage Providers CID": {
             "bafy2bzacec3zhoo7hftz34w4o3dt3tmnoxfbtxix5zirpwnjwtxxh3nptoxea": [
               "3601451"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "ID": "886986d1-1523-41ef-96ad-4b47a979b96e",
+      "Created At": "2025-06-20 15:06:10.120335616 UTC",
+      "Updated At": "2025-06-20 15:06:10.120339103 UTC",
+      "Active": false,
+      "Allowed Storage Providers": [
+        3552222,
+        2827109,
+        2826602,
+        3609158,
+        3601451,
+        2827953,
+        2827843,
+        2825675
+      ],
+      "Signers": [
+        {
+          "Github Username": "TOPPOOL-LEE",
+          "Signing Address": "f1grjkkw3p5hw3vx5gonvppkkzpcgmu4xnwfm7sli",
+          "Add Allowed Storage Providers CID": {
+            "bafy2bzaceabefd35lws3oeuz3hngm5quvm65wtizjzpqybkpslounuo6td3rg": [
+              "2827953",
+              "2827843",
+              "2825675"
             ]
           }
         }
