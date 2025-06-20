@@ -17,7 +17,7 @@
     "Describe the data being stored onto Filecoin": "The Transiting Exoplanet Survey Satellite (TESS) is an all-sky transit survey, whose principal goal is to detect Earth-sized planets orbiting bright stars that are amenable to follow-up observations to determine planet masses and atmospheric compositions. TESS will conduct high-precision photometry of more than 200,000 stars during a two-year mission with a cadence of approximately 2 minutes. These targets will be read-out as postage stamps and be made available to the community as target pixel files (TPFs) and calibrated light curves. In addition, the full image frame will be read out approximately every 30 minutes. These Full Frame Images (FFIs) will enable users to conduct photometry on any target within the 24x96 degree field-of-view.",
     "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
     "How do you plan to prepare the dataset": "The dataset contains 7 parts: ffi, footprints, mast, models, pixel_list, staged_cutouts, and tid. We package them according to their original directory structure. Take ffi as an example. It contains subdirectories s0001-s0093. We package and cut the directories in the order of directory names and convert them into car files. We record their piececid and original path in csv files for retrieval.\n",
-    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://archive.stsci.edu/missions-and-data/tess\ns3://stpubdata/tess/public/ffi/s0001/2018/206/1-1/ （data download link）\n",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "Total Objects: 21431584\nTotal Size: 1012.2 TiB\nhttps://archive.stsci.edu/missions-and-data/tess\ns3://stpubdata/tess/public/ffi/s0001/2018/206/1-1/ （data download link）\n",
     "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
     "What is the expected retrieval frequency for this data": "Yearly",
     "For how long do you plan to keep this dataset stored on Filecoin": "2 to 3 years",
@@ -29,8 +29,8 @@
   "Datacap": {
     "Type": "ldn-v3",
     "Data Type": "Slingshot",
-    "Total Requested Amount": "15PiB",
-    "Single Size Dataset": "1.5PiB",
+    "Total Requested Amount": "10PiB",
+    "Single Size Dataset": "1PiB",
     "Replicas": 10,
     "Weekly Allocation": "2PiB"
   },
