@@ -16,14 +16,14 @@
     "Is this project associated with other projects/ecosystem stakeholders?": "No",
     "Describe the data being stored onto Filecoin": "The Transiting Exoplanet Survey Satellite (TESS) is an all-sky transit survey, whose principal goal is to detect Earth-sized planets orbiting bright stars that are amenable to follow-up observations to determine planet masses and atmospheric compositions. TESS will conduct high-precision photometry of more than 200,000 stars during a two-year mission with a cadence of approximately 2 minutes. These targets will be read-out as postage stamps and be made available to the community as target pixel files (TPFs) and calibrated light curves. In addition, the full image frame will be read out approximately every 30 minutes. These Full Frame Images (FFIs) will enable users to conduct photometry on any target within the 24x96 degree field-of-view.",
     "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
-    "How do you plan to prepare the dataset": "",
-    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://archive.stsci.edu/missions-and-data/tess",
+    "How do you plan to prepare the dataset": "The dataset contains 7 parts: ffi, footprints, mast, models, pixel_list, staged_cutouts, and tid. We package them according to their original directory structure. Take ffi as an example. It contains subdirectories s0001-s0093. We package and cut the directories in the order of directory names and convert them into car files. We record their piececid and original path in csv files for retrieval.\n",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://archive.stsci.edu/missions-and-data/tess\ns3://stpubdata/tess/public/ffi/s0001/2018/206/1-1/ （data download link）\n",
     "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
     "What is the expected retrieval frequency for this data": "Yearly",
     "For how long do you plan to keep this dataset stored on Filecoin": "2 to 3 years",
     "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, South America, Europe",
     "How will you be distributing your data to storage providers": "HTTP or FTP server, IPFS, Shipping hard drives",
-    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "11",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03550927 HK\nf03550950 HK\nf03550971 ShenZhen\nf03550980 ShenZhen\nf03550992 SG\nf03609158  HK\nf03601451   HK\n",
     "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
   },
   "Datacap": {
