@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f1s2rxucps3q5n7dytecuigksg75pjneyo5f5lrii",
+  "Issue Number": "136",
+  "Client": {
+    "Name": "The National Library of Medicine",
+    "Region": "United States",
+    "Industry": "Life Science / Healthcare",
+    "Website": "https://www.nlm.nih.gov/；https://www.youtube.com/@NLMNIH； https://x.com/NLM_NIH",
+    "Social Media": "https://www.nlm.nih.gov/；https://www.youtube.com/@NLMNIH； https://x.com/NLM_NIH",
+    "Social Media Type": "Twitter",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "The National Library of Medicine (NLM), on the campus of the National Institutes of Health in Bethesda, Maryland, has been a center of information innovation since its founding in 1836. The world’s largest biomedical library, NLM maintains and makes available a vast print collection and produces electronic information resources on a wide range of topics that are searched billions of times each year by millions of people around the globe. It also supports and conducts research, development, and training in biomedical informatics and health information technology. In addition, the Library coordinates an 8,000+ member Network of the National Library of Medicine that promotes and provides access to health information in communities across the United States.\nThe mission of the Network of the National Library of Medicine (NNLM) is to advance the progress of medicine and improve the public health by providing all U.S. health professionals with equal access to biomedical information and improving the public's access to information to enable them to make informed decisions about their health. The Program is coordinated by the National Library of Medicine and carried out through a nationwide network of health science libraries and information centers.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "The National Library of Medicine (NLM), on the campus of the National Institutes of Health in Bethesda, Maryland, has been a center of information innovation since its founding in 1836. The world’s largest biomedical library, NLM maintains and makes available a vast print collection and produces electronic information resources on a wide range of topics that are searched billions of times each year by millions of people around the globe. It also supports and conducts research, development, and training in biomedical informatics and health information technology. In addition, the Library coordinates an 8,000+ member Network of the National Library of Medicine that promotes and provides access to health information in communities across the United States.\nThe mission of the Network of the National Library of Medicine (NNLM) is to advance the progress of medicine and improve the public health by providing all U.S. health professionals with equal access to biomedical information and improving the public's access to information to enable them to make informed decisions about their health. The Program is coordinated by the National Library of Medicine and carried out through a nationwide network of health science libraries and information centers.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://www.youtube.com/@NLMNIH\nhttps://www.nnlm.gov/guides/intro-health-literacy\nhttps://www.youtube.com/watch?v=MgqyqwGxRPA\nhttps://www.youtube.com/watch?v=MgqyqwGxRPA\nhttps://www.youtube.com/watch?v=Re47R8Kkjtg\nhttps://www.youtube.com/watch?v=eLuKYJXaNZ0\nhttps://www.youtube.com/watch?v=84xKoBSXrRc\nhttps://www.youtube.com/watch?v=PHCwpHDg42g",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "2 to 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, Africa, North America, South America, Europe",
+    "How will you be distributing your data to storage providers": "IPFS, Shipping hard drives, HTTP or FTP server, Cloud storage (i.e. S3)",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f01422327, Japan\nf02252024, Japan\nf02252023, Japan\nf01111110, Vietnam\nf01909705, Vietnam\nf03215853, US\nf03218576, US",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "15PiB",
+    "Single Size Dataset": "1.5PiB",
+    "Replicas": 10,
+    "Weekly Allocation": "2PiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2025-06-26 05:33:46.036402468 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1s2rxucps3q5n7dytecuigksg75pjneyo5f5lrii",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
