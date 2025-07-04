@@ -1,0 +1,66 @@
+{
+  "Version": "1.3",
+  "ID": "f1s2rxucps3q5n7dytecuigksg75pjneyo5f5lrii",
+  "Issue Number": "136",
+  "Client": {
+    "Name": "The National Library of Medicine",
+    "Region": "United States",
+    "Industry": "Life Science / Healthcare",
+    "Website": "https://registry.opendata.aws/ncbi-sra/",
+    "Social Media": "https://aws.amazon.com/marketplace/pp/prodview-53agqvt7fxmzg#usage、https://registry.opendata.aws/ncbi-sra/、https://www.ncbi.nlm.nih.gov/sra/docs/sra-cloud/",
+    "Social Media Type": "Twitter",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "The Sequence Read Archive (SRA), produced by the [National Center for Biotechnology Information (NCBI) ](https://www.ncbi.nlm.nih.gov/) at the [National Library of Medicine (NLM) ](http://nlm.nih.gov/) at the [National Institutes of Health (NIH) ](http://www.nih.gov/), stores raw DNA sequencing data and alignment information from high-throughput sequencing platforms. The SRA provides open access to these biological sequence data to support the research community's efforts to enhance reproducibility and make new discoveries by comparing data sets. Buckets in this registry contain public SRA data in the original (user submitted) format from select high value and newly-released studies as well as all public-access SRA formatted ETL+BQS data. Also included is all SRA metadata that can be leveraged for attribute-based data discovery.\n\nThe Sequence Read Archive (SRA) stores raw DNA sequencing data and alignment information from high-throughput sequencing platforms. The SRA provides open access to these biological sequence data to support the research community's efforts to enhance reproducibility and make new discoveries by comparing data sets. Buckets in this registry contain public SRA data in the original (user submitted) format from select high value and newly-released studies as well as all public-access SRA formatted ETL+BQS data. Also included is all SRA metadata that can be leveraged for attribute-based data discovery.\n",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Stores SRA's medical data, specifically:\nstores raw DNA sequencing data and alignment information from high-throughput sequencing platforms.\nThis is a very valuable, precious,  public dataset.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "we are the data preparer.\n.bam, .cram, and .fastq files in a public S3 bucket. we are use objects into FASTQ or SAM files. The command line for data download is provided here（https://registry.opendata.aws/ncbi-sra/）; We use a system we developed ourselves to cut the data into chunks of 32GiB.\n",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://aws.amazon.com/marketplace/pp/prodview-53agqvt7fxmzg#usage\nhttps://registry.opendata.aws/ncbi-sra/\nhttps://www.ncbi.nlm.nih.gov/sra/docs/sra-cloud/\nhttps://www.youtube.com/@NLMNIH\nhttps://www.ncbi.nlm.nih.gov/sra/docs/sra-cloud/\nhttps://www.nnlm.gov/guides/intro-health-literacy\nhttps://www.youtube.com/watch?v=MgqyqwGxRPA\nhttps://www.youtube.com/watch?v=MgqyqwGxRPA\nhttps://www.youtube.com/watch?v=Re47R8Kkjtg\nhttps://www.youtube.com/watch?v=eLuKYJXaNZ0\nhttps://www.youtube.com/watch?v=84xKoBSXrRc\nhttps://www.youtube.com/watch?v=PHCwpHDg42g",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "2 to 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, Africa, North America, South America, Europe",
+    "How will you be distributing your data to storage providers": "IPFS, Shipping hard drives, HTTP or FTP server, Cloud storage (i.e. S3)",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f02363305 HK\nf02829749 HK\nf02934869 HK\nf02934879 HK\nf03529412 Germany\nf03528948 HK\nf03528979 HK",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "9PiB",
+    "Single Size Dataset": "1.2PiB",
+    "Replicas": 7,
+    "Weekly Allocation": "2PiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2025-07-04 05:50:05.795102980 UTC",
+    "Validated By": "TOPPOOL-LEE",
+    "Active": true,
+    "Updated At": "2025-07-04 05:50:05.795097304 UTC",
+    "Active Request ID": "04cfec91-6265-4bb9-9109-25e1423bd4f2",
+    "On Chain Address": "f1s2rxucps3q5n7dytecuigksg75pjneyo5f5lrii",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "04cfec91-6265-4bb9-9109-25e1423bd4f2",
+      "Request Type": "First",
+      "Created At": "2025-07-03 04:48:38.225251735 UTC",
+      "Updated At": "2025-07-03 04:48:38.225253003 UTC",
+      "Active": false,
+      "Allocation Amount": "281474976710656 B",
+      "Signers": [
+        {
+          "Github Username": "TOPPOOL-LEE",
+          "Signing Address": "f1grjkkw3p5hw3vx5gonvppkkzpcgmu4xnwfm7sli",
+          "Created At": "2025-07-04 05:50:00.438000000 UTC",
+          "Message CID": "bafy2bzacediyk2qsoffm7fpjoyke4fhcs7zcq26udgenchfkymarj3ujh4x5s"
+        }
+      ]
+    }
+  ]
+}
