@@ -35,7 +35,7 @@
     "Weekly Allocation": "1PiB"
   },
   "Lifecycle": {
-    "State": "Granted",
+    "State": "ChangesRequested",
     "Validated At": "2025-07-23 02:36:39.448585004 UTC",
     "Validated By": "TOPPOOL-LEE",
     "Active": true,
@@ -43,7 +43,7 @@
     "Active Request ID": "33c8357d-b91c-422c-9c50-131a49d5ae6f",
     "On Chain Address": "f1nqnnhabda24obyhpppea2oyr5ag2cwab7w6o4ti",
     "Multisig Address": "false",
-    "edited": true
+    "edited": false
   },
   "Allocation Requests": [
     {
