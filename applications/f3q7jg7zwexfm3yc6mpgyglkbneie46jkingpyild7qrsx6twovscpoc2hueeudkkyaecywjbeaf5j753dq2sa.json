@@ -1,0 +1,60 @@
+{
+  "Version": "1.3",
+  "ID": "f3q7jg7zwexfm3yc6mpgyglkbneie46jkingpyild7qrsx6twovscpoc2hueeudkkyaecywjbeaf5j753dq2sa",
+  "Issue Number": "114",
+  "Client Contract Address": "f410fhbmfnwccrxiu25gcn6jolz3cavo6r57ko22aeha",
+  "Client": {
+    "Name": "1",
+    "Region": "Afghanistan",
+    "Industry": "Life Science / Healthcare",
+    "Website": "1",
+    "Social Media": "1",
+    "Social Media Type": "Slack",
+    "Role": "Dataset Owner"
+  },
+  "Project": {
+    "Brief history of your project and organization": "1",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "1",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "1",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Daily",
+    "For how long do you plan to keep this dataset stored on Filecoin": "Less than 1 year",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China",
+    "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3)",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "1",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "3PiB",
+    "Single Size Dataset": "300TiB",
+    "Replicas": 10,
+    "Weekly Allocation": "512TiB"
+  },
+  "Lifecycle": {
+    "State": "ReadyToSign",
+    "Validated At": "2025-06-01 14:22:30.315405934 UTC",
+    "Validated By": "TOPPOOL-LEE",
+    "Active": true,
+    "Updated At": "2025-06-01 14:22:30.315409567 UTC",
+    "Active Request ID": "061ce81e-3861-4828-8aa6-fd72f53828d3",
+    "On Chain Address": "f3q7jg7zwexfm3yc6mpgyglkbneie46jkingpyild7qrsx6twovscpoc2hueeudkkyaecywjbeaf5j753dq2sa",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "061ce81e-3861-4828-8aa6-fd72f53828d3",
+      "Request Type": "First",
+      "Created At": "2025-06-01 14:22:30.315411548 UTC",
+      "Updated At": "2025-06-01 14:22:30.315412357 UTC",
+      "Active": true,
+      "Allocation Amount": "2199023255552 B",
+      "Signers": []
+    }
+  ]
+}
