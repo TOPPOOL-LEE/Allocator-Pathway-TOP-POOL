@@ -1,0 +1,60 @@
+{
+  "Version": "1.3",
+  "ID": "f1pv7aqtewl2znbrug5anruwh442muf6jsvzjditi",
+  "Issue Number": "108",
+  "Client Contract Address": "f410fhbmfnwccrxiu25gcn6jolz3cavo6r57ko22aeha",
+  "Client": {
+    "Name": "James Webb Space Telescope",
+    "Region": "US",
+    "Industry": "Life Science / Healthcare",
+    "Website": "https://registry.opendata.aws/jwst/",
+    "Social Media": "JWST Observer website: jwst.stsci.edu Facebook: facebook.com/JWSTObserver Twitter:twitter.com/JWSTObserver YouTube: https://www.youtube.com/jwstobserver",
+    "Social Media Type": "Slack",
+    "Role": "Dataset Owner"
+  },
+  "Project": {
+    "Brief history of your project and organization": "The James Webb Space Telescope (JWST) is the world's next flagship infrared observatory led by NASA with its partners, ESA (European Space Agency), and CSA (Canadian Space Agency). JWST offers scientists the opportunity to observe galaxy evolution, the formation of stars and planets, exoplanetary systems, and our own solar system, in ways never before possible.\n\nEstablished in 1981, we have helped guide the most famous observatory in history, the Hubble Space Telescope.  Since its launch in 1990, we have performed the science operations for Hubble. We also lead the science and mission operations for the James Webb Space Telescope (JWST), which launched on December 25, 2021. We will perform parts of the science operations for the Nancy Grace Roman Space Telescope, in formulation for launch in late 2026, and we are partners on several other NASA missions. Our staff conducts world-class scientific research; our Barbara A. Mikulski Archive for Space Telescopes (MAST) curates and disseminates data from over 20 astronomical missions; and we bring science to the world through internationally recognized news, education, and public outreach programs.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "Yes",
+    "Describe the data being stored onto Filecoin": "JWST mainly stores space data and telescope data.\n\nThe four stages of JWST science data products\nFigure 1 shows the flow of data through the JWST Science Calibration Pipeline. This pipeline and the corresponding science data products that it produces can be divided into 4 main stages, depending on the degree of processing:\n\nStage 0: Uncalibrated raw data products from single exposures in units of total DN (e.g., \"uncal.fits\")\nStage 1: Data products that have been corrected for certain detector effects and converted to units of DN/s (e.g., \"rate.fits\", produced by the stage 1 pipeline)\nStage 2: Calibrated data products from single or multiple exposures with world coordinates and photometric information (e.g., \"cal.fits\", produced by the stage 2 pipeline)\nStage 3: Calibrated data products resulting from the combination of multiple exposures into a single integrated product (e.g., \"i2d.fits\", \"s3d.fits\", \"x1d.fits\", produced by the stage 3 pipeline)",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "JWST Observer website: jwst.stsci.edu\nFacebook: facebook.com/JWSTObserver\nTwitter:twitter.com/JWSTObserver\nYouTube: https://www.youtube.com/jwstobserver\n\nhttps://jwst-docs.stsci.edu/jwst-science-calibration-pipeline/stages-of-jwst-data-processing#gsc.tab=0\nhttps://jwst-pipeline.readthedocs.io/en/stable/jwst/data_products/product_types.html\n\nhttps://www.youtube.com/watch?v=s_DMNFXVB5s\nhttps://www.youtube.com/watch?v=yVRmjXlUk6s\nhttps://www.youtube.com/watch?v=zuQC8Ky3Sz4\nhttps://www.youtube.com/watch?v=s_DMNFXVB5s\nhttps://www.youtube.com/watch?v=qUa2zBU6SgI\nhttps://www.youtube.com/watch?v=wvuoTBO8Ko0\nhttps://www.youtube.com/watch?v=G8wkneaZ13c",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "2 to 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, Europe, South America",
+    "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3)",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f02827953  HK\nf02827843  HK\nf03298672 Germany\nf03308920 United Kingdom\nf03540144 Philippines\nf03540147 Philippines\nf02827109   XinJiang\nf02826602  XinJiang\nf02825675  XinJiang\nf03308922 Japan",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "3.5PiB",
+    "Single Size Dataset": "350TiB",
+    "Replicas": 10,
+    "Weekly Allocation": "2PiB"
+  },
+  "Lifecycle": {
+    "State": "ReadyToSign",
+    "Validated At": "2025-06-01 02:41:36.615967468 UTC",
+    "Validated By": "TOPPOOL-LEE",
+    "Active": true,
+    "Updated At": "2025-06-01 02:41:36.615971301 UTC",
+    "Active Request ID": "be732832-afba-42ef-90fb-e1f33bfd1096",
+    "On Chain Address": "f1pv7aqtewl2znbrug5anruwh442muf6jsvzjditi",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "be732832-afba-42ef-90fb-e1f33bfd1096",
+      "Request Type": "First",
+      "Created At": "2025-06-01 02:41:36.615973155 UTC",
+      "Updated At": "2025-06-01 02:41:36.615973957 UTC",
+      "Active": true,
+      "Allocation Amount": "281474976710656 B",
+      "Signers": []
+    }
+  ]
+}
