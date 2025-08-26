@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f1scbuozu5pewbccl66ucqxcw5tuadxclvpqnpnja",
+  "Issue Number": "170",
+  "Client": {
+    "Name": "haplox",
+    "Region": "Japan",
+    "Industry": "Life Science / Healthcare",
+    "Website": "https://www.haplox.cn/about",
+    "Social Media": "https://www.haplox.cn/about",
+    "Social Media Type": "Slack",
+    "Role": "Dataset Owner"
+  },
+  "Project": {
+    "Brief history of your project and organization": "HaploX is a leading provider of genetic testing solutions, specializing in gene sequencing, liquid biopsies, bioinformatics, and big data analytics. Recognized for its technological innovation, HaploX is committed to advancing life sciences globally.\n\nOur laboratories are certified according to the highest standards for genetic testing globally, with accreditations from the CAP (College of American Pathologists), CLIA (Clinical Laboratory Improvement Amendments), and EMQN (European Molecular Genetics Quality Network). We excel in offering a broad spectrum of genetic testing applications, addressing various population groups, tumor types, and disease stages. Our services deliver valuable genetic testing results that support comprehensive health management, including cancer diagnostics, health screening, risk assessment, and pathogenic microbe testing.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Medical data\nGenetic data\nR&D data\nWe have our own IDC, where our data is stored, totaling over 5 PiB.",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://www.haplox.com/news/250820\nhttps://www.haplox.com/news/ESMO\nhttps://www.haplox.com/news/asco2025",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1.5 to 2 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f02827953 \nf02827843 \nf02827109 \nf02826602 \nf02825675",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "10PiB",
+    "Single Size Dataset": "1.25PiB",
+    "Replicas": 8,
+    "Weekly Allocation": "1PiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2025-08-26 06:13:43.211658298 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1scbuozu5pewbccl66ucqxcw5tuadxclvpqnpnja",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
