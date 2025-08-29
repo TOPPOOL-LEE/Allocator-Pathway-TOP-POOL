@@ -1,0 +1,66 @@
+{
+  "Version": "1.3",
+  "ID": "f1qrajjqdasge46nzv5ganoo6qf6qozjpfxzrxlfi",
+  "Issue Number": "168",
+  "Client": {
+    "Name": "Super-Resolution for Renewable Energy Resource Data with Climate Change Impacts",
+    "Region": "United States",
+    "Industry": "Life Science / Healthcare",
+    "Website": "https://registry.opendata.aws/nrel-pds-sup3rcc/",
+    "Social Media": "https://registry.opendata.aws/nrel-pds-sup3rcc/",
+    "Social Media Type": "Slack",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "Sup3rCC is downscaled Global Climate Model (GCM) data. For example, the initial file set tagged \"sup3rcc_conus_mriesm20_ssp585_r1i1p1f1\" is downscaled from MRI ESM 2.0 for climate change scenario SSP5 8.5 and variant label r1i1p1f1. The downscaling process is performed using a generative machine learning approach called sup3r: Super-Resolution for Renewable Energy Resource Data. The data includes both historical and future weather years, although the historical years represent the historical average climate, not true historical weather. The Sup3rCC data is intended to help researchers study the impact of climate change on energy systems with high levels of wind and solar power generation. Please note that all climate change data is only a representation of the possible future climate and contains significant uncertainty. Analysis of multiple climate change scenarios and multiple climate models can help quantify this uncertainty.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "NO",
+    "Describe the data being stored onto Filecoin": "Sup3rCC is downscaled Global Climate Model (GCM) data. For example, the initial file set tagged \"sup3rcc_conus_mriesm20_ssp585_r1i1p1f1\" is downscaled from MRI ESM 2.0 for climate change scenario SSP5 8.5 and variant label r1i1p1f1. The downscaling process is performed using a generative machine learning approach called sup3r: Super-Resolution for Renewable Energy Resource Data. The data includes both historical and future weather years, although the historical years represent the historical average climate, not true historical weather. The Sup3rCC data is intended to help researchers study the impact of climate change on energy systems with high levels of wind and solar power generation. Please note that all climate change data is only a representation of the possible future climate and contains significant uncertainty. Analysis of multiple climate change scenarios and multiple climate models can help quantify this uncertainty.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "We developed our own platform using tools developed by Venus. In terms of data retrieval, the feature is to use scripts to traverse and execute. In terms of data download, we download the data according to the AWS command line. After downloading, we use the open source go-graphsplit of the fileddrive-team to cut it into small files of a specified size. The csv file will store the piece_cid and size information corresponding to the source file.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://data.openei.org/s3_viewer?bucket=nrel-pds-sup3rcc\n\nhttps://data.openei.org/s3_viewer?bucket=nrel-pds-sup3rcc&prefix=ancillary%2F\n\nhttps://data.openei.org/s3_viewer?bucket=nrel-pds-sup3rcc&prefix=conus_ecearth3_ssp585_r1i1p1f1%2F\n\nhttps://data.openei.org/s3_viewer?bucket=nrel-pds-sup3rcc&prefix=conus_ecearth3veg_historical_r1i1p1f1%2F\n\nhttps://data.openei.org/s3_viewer?bucket=nrel-pds-sup3rcc&prefix=conus_taiesm1_historical_r1i1p1f1%2F\n\nhttps://data.openei.org/s3_viewer?bucket=nrel-pds-sup3rcc&prefix=conus_taiesm1_historical_r1i1p1f1%2F\nhttps://data.openei.org/s3_viewer?bucket=nrel-pds-sup3rcc&prefix=models%2Fsup3rcc_models_202301%2F\n\nhttps://data.openei.org/s3_viewer?bucket=nrel-pds-sup3rcc&prefix=models%2Fsup3rcc_models_202301%2Fsup3rcc_solar_step3_1x_8x_1f%2F\n\nhttps://data.openei.org/s3_viewer?bucket=nrel-pds-sup3rcc&prefix=conus_ecearth3cc_historical_r1i1p1f1%2F\n",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1.5 to 2 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America",
+    "How will you be distributing your data to storage providers": "Shipping hard drives, HTTP or FTP server",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f02930717 France\nf02827953 Hong Kong\nf02827843 Hong Kong\nf02874347 United States\nf02916974 United States\nf02827109 Xinjiang\nf02826602 Xinjiang\nf02825675 Xinjiang",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "2PiB",
+    "Single Size Dataset": "250TiB",
+    "Replicas": 8,
+    "Weekly Allocation": "1PiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2025-08-29 15:06:06.053833265 UTC",
+    "Validated By": "TOPPOOL-LEE",
+    "Active": true,
+    "Updated At": "2025-08-29 15:06:06.053829215 UTC",
+    "Active Request ID": "cccdf19b-fa5a-4074-bd34-acf6cc2be272",
+    "On Chain Address": "f1qrajjqdasge46nzv5ganoo6qf6qozjpfxzrxlfi",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "cccdf19b-fa5a-4074-bd34-acf6cc2be272",
+      "Request Type": "First",
+      "Created At": "2025-08-29 15:02:37.878660337 UTC",
+      "Updated At": "2025-08-29 15:02:37.878661458 UTC",
+      "Active": false,
+      "Allocation Amount": "281474976710656 B",
+      "Signers": [
+        {
+          "Github Username": "TOPPOOL-LEE",
+          "Signing Address": "f1grjkkw3p5hw3vx5gonvppkkzpcgmu4xnwfm7sli",
+          "Created At": "2025-08-29 15:06:00.918000000 UTC",
+          "Message CID": "bafy2bzacea7uzrre3ufkuugneiwyzewbnospd2yym2es6wclp4w2lvx5y2ks4"
+        }
+      ]
+    }
+  ]
+}
