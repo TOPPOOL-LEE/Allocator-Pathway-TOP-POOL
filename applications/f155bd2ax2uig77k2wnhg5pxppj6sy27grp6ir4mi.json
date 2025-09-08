@@ -4,7 +4,7 @@
   "Issue Number": "172",
   "Client": {
     "Name": "jacob.radford@noaa.gov",
-    "Region": "Afghanistan",
+    "Region": "US",
     "Industry": "Life Science / Healthcare",
     "Website": "https://registry.opendata.aws/aiwp/",
     "Social Media": "https://registry.opendata.aws/aiwp/",
@@ -29,8 +29,8 @@
   "Datacap": {
     "Type": "ldn-v3",
     "Data Type": "Slingshot",
-    "Total Requested Amount": "3PiB",
-    "Single Size Dataset": "400TiB",
+    "Total Requested Amount": "7.6 PiB",
+    "Single Size Dataset": "950 TiB",
     "Replicas": 8,
     "Weekly Allocation": "1PiB"
   },
