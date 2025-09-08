@@ -17,7 +17,7 @@
     "Describe the data being stored onto Filecoin": "This is an archive of pure AI-based weather prediction reforecasts produced collaboratively between the Cooperative Institute for Research in the Atmosphere (CIRA) and the NOAA Global Systems Laboratory (NOAA-GSL).\n\nCurrently, FourCastNetv2-small, Pangu-Weather, and GraphCast are included, with more models to come. Each of these models has been initialized with both NOAA GFS (directories with no extension) and ECMWF IFS initial conditions (directories ending in \"_IFS\"). The datasets are updated with near-real-time data twice per day (00Z and 12Z initializations).",
     "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
     "How do you plan to prepare the dataset": "",
-    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://www.cira.colostate.edu/",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "\nhttps://registry.opendata.aws/aiwp/: 222.78 TiB\nhttps://registry.opendata.aws/ont-open-data/    140.66 TB\nhttps://registry.opendata.aws/terrafusion/  136.23 TB\nhttps://registry.opendata.aws/noaa-wave-ensemble-reforecast/  114.29 TB\nhttps://registry.opendata.aws/wbg-cckp/  112.58 TB\n",
     "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
     "What is the expected retrieval frequency for this data": "Yearly",
     "For how long do you plan to keep this dataset stored on Filecoin": "1 to 1.5 years",
