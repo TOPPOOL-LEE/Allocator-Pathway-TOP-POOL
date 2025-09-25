@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f1tkaemc5nqrbthrjrbzua4bj462qchyjduslna7y",
+  "Issue Number": "177",
+  "Client": {
+    "Name": "Global Land Analysis and Discovery Lab",
+    "Region": "United States",
+    "Industry": "Life Science / Healthcare",
+    "Website": "https://registry.opendata.aws/glad-landsat-ard/",
+    "Social Media": "https://registry.opendata.aws/glad-landsat-ard/",
+    "Social Media Type": "Other",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "The Global Land Analysis and Discovery (GLAD) laboratory in the Department of Geographical Sciences at the University of Maryland investigates methods, causes and impacts of global land surface change. Earth observation imagery are the primary data source and land cover extent and change the primary topic of interest. The lab is led by Dr. Matthew Hansen. The team consists of full-time researchers, post-docs and doctoral students with diverse backgrounds.\n\nThe GLAD ARD represents a 16-day time series of globally consistent, tiled Landsat normalized surface reflectance from 1997 to the present operationally updated every 16 days. Only data from 2020 to present available on the AWS, older data is available through the UMD API.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "Yes",
+    "Describe the data being stored onto Filecoin": "The Global Land Analysis and Discovery (GLAD) laboratory in the Department of Geographical Sciences at the University of Maryland investigates methods, causes and impacts of global land surface change. Earth observation imagery are the primary data source and land cover extent and change the primary topic of interest. The lab is led by Dr. Matthew Hansen. The team consists of full-time researchers, post-docs and doctoral students with diverse backgrounds.\n\nThe GLAD ARD represents a 16-day time series of globally consistent, tiled Landsat normalized surface reflectance from 1997 to the present operationally updated every 16 days. Only data from 2020 to present available on the AWS, older data is available through the UMD API.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "Resources on AWS\nDescription\n16-day image composite tiles\nResource type\nS3 Bucket\nAmazon Resource Name (ARN)\narn:aws:s3:::glad.landsat.ard/data/tiles/\nAWS Region\nus-west-2\nAWS CLI Access (No AWS account required)\naws s3 ls --no-sign-request s3://glad.landsat.ard/data/tiles/",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1.5 to 2 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, IPFS, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03233356",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "10PiB",
+    "Single Size Dataset": "1.31PiB",
+    "Replicas": 10,
+    "Weekly Allocation": "1PiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2025-09-08 03:54:43.748110849 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1tkaemc5nqrbthrjrbzua4bj462qchyjduslna7y",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
